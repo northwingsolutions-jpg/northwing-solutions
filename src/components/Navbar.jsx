@@ -1,4 +1,5 @@
 import { Menu } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -29,17 +30,13 @@ const Navbar = () => {
 
           <div className="hidden md:flex gap-8">
 
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
 
-            <a href="#">About</a>
+            <Link to="/about">About</Link>
 
-            <a href="#">Services</a>
+            <Link to="/careers">Careers</Link>
 
-            <a href="#">Industries</a>
-
-            <a href="#">Careers</a>
-
-            <a href="#">Contact</a>
+            <Link to="/contact">Contact</Link>
 
           </div>
 
