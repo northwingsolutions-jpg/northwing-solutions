@@ -20,12 +20,31 @@ export default function Footer() {
   ];
 
   const services = [
-    "Executive Search",
-    "IT Recruitment",
-    "Engineering Recruitment",
-    "Contract Staffing",
-    "RPO Solutions",
-  ];
+  {
+    name: "IT Recruitment",
+    path: "/services/it-recruitment",
+  },
+  {
+    name: "Engineering Recruitment",
+    path: "/services/engineering",
+  },
+  {
+    name: "Executive Search",
+    path: "/services/executive-search",
+  },
+  {
+    name: "Permanent Staffing",
+    path: "/services/permanent-staffing",
+  },
+  {
+    name: "Contract Staffing",
+    path: "/services/contract-staffing",
+  },
+  {
+    name: "Recruitment Process Outsourcing",
+    path: "/services/rpo",
+  },
+];
 
   return (
     <footer
@@ -42,11 +61,13 @@ export default function Footer() {
 
           <div>
 
-            <img
-              src="/logo.png"
-              alt="NorthWing Solutions"
-              className="h-16"
-            />
+            <Link to="/">
+  <img
+    src="/logo.png"
+    alt="NorthWing Solutions"
+    className="h-16 cursor-pointer"
+  />
+</Link>
 
             <p className="mt-6 text-gray-300 leading-8">
 
@@ -115,20 +136,24 @@ export default function Footer() {
 
             <ul className="space-y-4">
 
-              {services.map((service, index) => (
+             {services.map((service) => (
 
-                <li
-                  key={index}
-                  className="flex items-center gap-2 text-gray-300"
-                >
+<li key={service.path}>
 
-                  <ChevronRight size={18} />
+  <Link
+    to={service.path}
+    className="flex items-center gap-2 text-gray-300 hover:text-teal-400 transition"
+  >
 
-                  {service}
+    <ChevronRight size={18} />
 
-                </li>
+    {service.name}
 
-              ))}
+  </Link>
+
+</li>
+
+))}
 
             </ul>
 
@@ -148,9 +173,12 @@ export default function Footer() {
 
                 <Mail className="text-teal-400 mt-1" />
 
-                <span className="text-gray-300">
-                  info@northwingsolutions.com
-                </span>
+                <a
+  href="mailto:northwingsolutions@gmail.com"
+  className="text-gray-300 hover:text-teal-400 transition"
+>
+  northwingsolutions@gmail.com
+</a>
 
               </div>
 
@@ -158,9 +186,12 @@ export default function Footer() {
 
                 <Phone className="text-teal-400 mt-1" />
 
-                <span className="text-gray-300">
-                  +91 XXXXX XXXXX
-                </span>
+                <a
+  href="tel:+919000000000"
+  className="text-gray-300 hover:text-teal-400 transition"
+>
+  +91 XXXXX XXXXX
+</a>
 
               </div>
 
@@ -169,7 +200,14 @@ export default function Footer() {
                 <Globe className="text-teal-400 mt-1" />
 
                 <span className="text-gray-300">
-                  www.northwingsolutions.com
+                  <a
+  href="https://northwingglobal.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-gray-300 hover:text-teal-400 transition"
+>
+  www.northwingglobal.com
+</a>
                 </span>
 
               </div>
