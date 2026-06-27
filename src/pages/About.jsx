@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -136,9 +137,12 @@ export default function About() {
             entire workforce, NorthWing Solutions is ready to help.
           </p>
 
-          <button className="mt-10 bg-teal-500 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-teal-600 transition">
-            Contact Us
-          </button>
+          <Link
+  to="/contact"
+  className="inline-block mt-10 bg-teal-500 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-teal-600 transition"
+>
+  Contact Us
+</Link>
 
         </div>
 

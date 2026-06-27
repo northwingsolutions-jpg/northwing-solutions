@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 import {
   Laptop,
   Factory,
@@ -212,9 +213,12 @@ export default function Industries() {
             tailored to your industry and business goals.
           </p>
 
-          <button className="mt-10 bg-teal-500 hover:bg-teal-600 px-8 py-4 rounded-xl font-semibold transition">
-            Contact Our Team
-          </button>
+          <Link
+  to="/contact"
+  className="inline-block mt-10 bg-teal-500 hover:bg-teal-600 px-8 py-4 rounded-xl font-semibold transition"
+>
+  Contact Our Team
+</Link>
 
         </div>
 
