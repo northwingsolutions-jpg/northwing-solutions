@@ -5,9 +5,9 @@ import services from "../Data/services";
 import { ArrowLeft, CheckCircle2 } from "lucide-react";
 
 export default function ServiceDetails() {
-  const { id } = useParams();
+  const { serviceId } = useParams();
 
-  const service = services.find((item) => item.id === id);
+  const service = services.find((item) => item.id === serviceId);
 
   if (!service) {
     return <Navigate to="/services" replace />;
