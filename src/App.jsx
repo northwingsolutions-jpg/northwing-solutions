@@ -11,7 +11,7 @@ import ServiceDetails from "./pages/ServiceDetails";
 // Admin
 import Login from "./admin/pages/Login";
 import Dashboard from "./admin/pages/Dashboard";
-import ProtectedRoute from "./admin/routes/ProtectedRoute";
+import ProtectedRoute from "./admin/Routes/ProtectedRoute";
 import Jobs from "./admin/pages/Jobs";
 import AddJob from "./admin/pages/AddJob";
 import EditJob from "./admin/pages/EditJob";
