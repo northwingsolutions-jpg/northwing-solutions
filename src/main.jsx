@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "@fontsource/manrope";
 import "./index.css";
-import "./firebase/firebase";
+import "./Firebase/firebase";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
