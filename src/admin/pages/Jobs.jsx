@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Plus, Search, MapPin, Briefcase } from "lucide-react";
 
-import AdminLayout from "../layout/AdminLayout";
+import AdminLayout from "../Layout/AdminLayout";
 import { getJobs, removeJob } from "../../services/jobService";
 
 export default function Jobs() {

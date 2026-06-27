@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import services from "../data/services";
+import services from "../Data/services";
 
 export default function Services() {
   return (

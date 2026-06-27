@@ -1,5 +1,5 @@
 import { useState } from "react";
-import AdminLayout from "../layout/AdminLayout";
+import AdminLayout from "../Layout/AdminLayout";
 import { addJob } from "../../services/jobService";
 
 export default function AddJob() {

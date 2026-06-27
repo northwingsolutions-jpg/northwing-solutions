@@ -11,7 +11,7 @@ import {
 
 import { NavLink, useNavigate } from "react-router-dom";
 import { signOut } from "firebase/auth";
-import auth from "../../firebase/auth";
+import auth from "../../Firebase/auth";
 import { useState } from "react";
 
 export default function Sidebar() {

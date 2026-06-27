@@ -1,7 +1,7 @@
 import { Link, Navigate, useParams } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import services from "../data/services";
+import services from "../Data/services";
 import { ArrowLeft, CheckCircle2 } from "lucide-react";
 
 export default function ServiceDetails() {

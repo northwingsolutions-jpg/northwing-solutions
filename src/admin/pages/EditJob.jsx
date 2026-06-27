@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
-import AdminLayout from "../layout/AdminLayout";
+import AdminLayout from "../Layout/AdminLayout";
 
 import {
   getJobById,

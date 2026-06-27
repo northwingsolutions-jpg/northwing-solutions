@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import services from "../data/services";
+import services from "../Data/services";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 const process = [
