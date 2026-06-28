@@ -227,7 +227,7 @@ export default function Contact() {
 <input
   type="hidden"
   name="_next"
-  value="http://localhost:5173/success"
+  value="https://northwing-solutions.vercel.app/success"
 />
 
                 <input
