@@ -160,7 +160,7 @@ export default function ApplyJob() {
 <input
   type="hidden"
   name="_next"
-  value="https://northwing-solutions-re2afovjd-northwingsolutions.vercel.app/success"
+  value="https://northwing-solutions.vercel.app/success"
 />
 
 <input
