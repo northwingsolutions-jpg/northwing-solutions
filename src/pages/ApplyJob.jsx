@@ -160,7 +160,7 @@ export default function ApplyJob() {
 <input
   type="hidden"
   name="_next"
-  value="http://localhost:5173/success"
+  value="https://northwing-solutions-re2afovjd-northwingsolutions.vercel.app/success"
 />
 
 <input
@@ -343,6 +343,7 @@ export default function ApplyJob() {
   type="file"
   name="Resume"
   className="w-full mt-2 border rounded-xl p-3"
+  required
   accept=".pdf,.doc,.docx"
 />
 
