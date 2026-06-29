@@ -56,7 +56,7 @@ export default function Contact() {
               </h3>
 
               <p className="mt-4 text-gray-600">
-                info@northwingsolutions.com
+                info@northwingglobal.com
               </p>
 
             </div>
@@ -98,7 +98,7 @@ export default function Contact() {
               </h3>
 
               <p className="mt-4 text-gray-600">
-                www.northwingsolutions.com
+                www.northwingglobal.com
               </p>
 
             </div>
@@ -186,7 +186,7 @@ export default function Contact() {
                     </h3>
 
                     <p className="text-gray-600 mt-2">
-                      info@northwingsolutions.com
+                      info@northwingglobal.com
                     </p>
 
                   </div>
@@ -227,7 +227,7 @@ export default function Contact() {
 <input
   type="hidden"
   name="_next"
-  value="https://northwing-solutions.vercel.app/success"
+  value="https://northwingglobal.com/success"
 />
 
                 <input
